@@ -1,0 +1,11 @@
+{
+    "app.name": "LOGO",
+    "app.generic-error": "Something went wrong.",
+    "list.name": "NAME",
+    "list.description": "DESCRIPTION",
+    "list.empty": "There are no businesses defined yet.",
+    "business.address": "Address",
+    "business.contact": "Contact",
+    "business.nearby-places": "Nearby Places",
+    "business.not-found": "We couldn't find the business you are looking for."
+}

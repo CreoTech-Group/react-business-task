@@ -1,0 +1,19 @@
+@import 'components/Styles.scss';
+
+body {
+    background-color: #F8F8FA;
+}
+
+.content-container {
+    @include phone {
+        padding: 15px 15px;
+    }
+
+    @include tablet {
+        padding: 30px 30px;
+    }
+
+    @include desktop {
+        padding: 43px 60px;
+    }
+}

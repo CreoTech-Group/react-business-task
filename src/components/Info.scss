@@ -1,0 +1,39 @@
+@use 'components/Variables.scss' as variables;
+@import 'components/Styles.scss';
+
+.info {
+    @include tablet {
+        margin-right: 30px;
+    }
+
+    @include laptop {
+        margin-right: 95px;
+        padding: 30px 0px;
+    }
+}
+
+.info-title {
+    @include title;
+
+    @include phone {
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    @include tablet {
+        margin-top: 30px;
+    }
+}
+
+.info-row {
+    color: variables.$textLight;
+
+    @include phone {
+        font-size: 0.8em;
+        margin-bottom: 5px;
+    }
+
+    @include tablet {
+        font-size: 0.9em;
+    }
+}

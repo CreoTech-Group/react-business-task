@@ -1,0 +1,7 @@
+@use 'components/Variables.scss' as variables;
+@import 'components/Styles.scss';
+
+.not-found-view {
+    @include center-content;
+    color: variables.$textColor;
+}

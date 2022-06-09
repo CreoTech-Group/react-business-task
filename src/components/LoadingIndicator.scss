@@ -1,0 +1,5 @@
+@import 'components/Styles.scss';
+
+.loading-indicator {
+    @include center-content;
+}

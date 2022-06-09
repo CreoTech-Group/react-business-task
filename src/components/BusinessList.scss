@@ -1,0 +1,10 @@
+@import 'components/Styles.scss';
+
+.business-list {
+    @include fade-in-animation;
+}
+
+.business-item-link {
+    cursor: pointer;
+    text-decoration: none;
+}

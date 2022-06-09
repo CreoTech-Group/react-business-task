@@ -1,0 +1,45 @@
+@use 'components/Variables.scss' as variables;
+@import 'components/Styles.scss';
+
+.nearby-businesses {
+    flex: 1;
+    background-color: white;
+
+    @include phone {
+        padding: 15px 15px;
+    }
+
+    @include tablet {
+        padding: 30px 25px;
+    }
+}
+
+.nearby-businesses-title {
+    @include title;
+
+    @include phone {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+
+    @include tablet {
+        margin-bottom: 20px;
+    }
+}
+
+.nearby-business-item {
+    display: flex;
+    padding: 20px 10px;
+    background-color: #F8F8FA;
+    margin: 5px 0px 0px 0px;
+    color: variables.$textColor;
+    font-size: 0.9em;
+}
+
+.nearby-business-name {
+    flex: 0.3;
+}
+
+.nearby-business-address {
+    flex: 0.7;
+}

@@ -1,0 +1,34 @@
+@use 'components/Variables.scss' as variables;
+@import 'components/Fonts.scss';
+@import 'components/Styles.scss';
+
+.business-list-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: variables.$textColor;
+    font-size: 14px;
+    font-family: 'Nimbus';
+    margin: 5px 0px 0px 0px;
+    padding: 17px 30px;
+
+    &:hover {
+        background-color:#F4F4F5;
+    }
+}
+
+.business-list-item-name {
+    flex: 0.28;
+
+    @include phone {
+        flex: 0.4;
+    }
+}
+
+.business-list-item-description {
+    flex: 0.72;
+
+    @include phone {
+        flex: 0.6;
+    }
+}

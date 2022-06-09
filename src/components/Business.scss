@@ -1,0 +1,45 @@
+@import 'components/Styles.scss';
+
+.business-view-info {
+    @include fade-in-animation;
+
+    display: flex;
+
+    @include phone {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    @include tablet {
+        margin-top: 29px;
+        padding: 0px;
+        flex-direction: row;
+    }
+
+    @include laptop {
+        padding: 0px 15px;
+    }
+
+    @include desktop {
+        padding: 0px 56px;
+    }
+}
+
+.business-view-info-container {
+    display: flex;
+
+    @include phone {
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        flex-direction: column;
+        padding: 0px 15px;
+    }
+
+    @include tablet {
+        flex-direction: column;
+    }
+
+    @include laptop {
+        flex-direction: row;
+    }
+}

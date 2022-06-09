@@ -1,0 +1,31 @@
+@use 'components/Variables.scss' as variables;
+@import 'components/Fonts.scss';
+@import 'components/Styles.scss';
+
+.business-list-item-header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: variables.$accentColor;
+    font-size: 14px;
+    font-family: 'Nimbus';
+    font-weight: bold;
+    margin: 5px 0px 0px 0px;
+    padding: 17px 30px;
+}
+
+.business-list-item-header-name {
+    flex: 0.28;
+
+    @include phone {
+        flex: 0.4;
+    }
+}
+
+.business-list-item-header-description {
+    flex: 0.72;
+
+    @include phone {
+        flex: 0.6;
+    }
+}

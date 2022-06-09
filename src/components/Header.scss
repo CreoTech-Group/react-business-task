@@ -1,0 +1,28 @@
+@use 'components/Variables.scss' as variables;
+@import 'components/Fonts.scss';
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0px 1px 3px 3px #eeeeee;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-container span {
+    color: variables.$logoTextColor;
+    margin-top: 4px;
+    font-family: 'Nimbus';
+    font-size: 14px;
+}
+
+.header-image {
+    width: 22px;
+    height: 22px;
+}
+
